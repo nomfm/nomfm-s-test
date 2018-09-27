@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="570.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.控制9修改资料">
+   <children>
+      <AnchorPane layoutX="-123.0" layoutY="-199.0" prefHeight="836.0" prefWidth="588.0">
+         <children>
+            <ImageView layoutX="123.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../修改资料/自己的修改资料.jpg" />
+               </image>
+            </ImageView>
+            <MenuButton layoutX="433.0" layoutY="250.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="143.0" text="男" fx:id="xb">
+              <items>
+                <MenuItem mnemonicParsing="false" text="男" />
+                <MenuItem mnemonicParsing="false" text="女" />
+              </items>
+            </MenuButton>
+            <MenuButton layoutX="433.0" layoutY="295.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="143.0">
+              <items>
+                <MenuItem mnemonicParsing="false" text="医生" />
+                <MenuItem mnemonicParsing="false" text="教师" />
+              </items>
+            </MenuButton>
+            <TextArea fx:id="gxqm" layoutX="197.0" layoutY="611.0" prefHeight="78.0" prefWidth="378.0" />
+            <TextArea fx:id="nic" layoutX="197.0" layoutY="250.0" prefHeight="30.0" prefWidth="143.0" />
+            <TextArea fx:id="sr" layoutX="197.0" layoutY="295.0" prefHeight="30.0" prefWidth="143.0" />
+            <TextArea fx:id="gx" layoutX="197.0" layoutY="340.0" prefHeight="30.0" prefWidth="378.0" />
+            <TextArea layoutX="197.0" layoutY="431.0" prefHeight="30.0" prefWidth="378.0" fx:id="xx" />
+            <TextArea layoutX="197.0" layoutY="475.0" prefHeight="30.0" prefWidth="378.0" />
+            <TextArea fx:id="sjh" layoutX="197.0" layoutY="521.0" prefHeight="30.0" prefWidth="378.0" />
+            <TextArea layoutX="197.0" layoutY="566.0" prefHeight="30.0" prefWidth="378.0" />
+            <TextArea layoutX="197.0" layoutY="386.0" prefHeight="30.0" prefWidth="378.0" />
+            <ImageView fitHeight="37.0" fitWidth="33.0" layoutX="523.0" layoutY="198.0" onMouseEntered="#zxhyy" onMouseExited="#zxhqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true" fx:id="xgzl_zxh">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="33.0" layoutX="556.0" layoutY="198.0" onMouseClicked="#gb" onMouseEntered="#gbyy" onMouseExited="#gbqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true" fx:id="xgzl_gb">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="296.0" layoutY="715.0" mnemonicParsing="false" onMouseClicked="#qd" prefHeight="30.0" prefWidth="68.0" text="确定" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

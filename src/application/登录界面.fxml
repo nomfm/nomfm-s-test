@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="416.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.控制1客户机">
+   <children>
+      <AnchorPane layoutX="-28.0" layoutY="15.0" prefHeight="444.0" prefWidth="632.0">
+         <children>
+            <ImageView id="底" layoutX="-174.0" layoutY="-276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../底.png" />
+               </image>
+            </ImageView>
+            <CheckBox id="记住密码选框" fx:id="jzmm" layoutX="195.0" layoutY="311.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="2.0" />
+            <CheckBox id="自动登录选矿" fx:id="zddl" layoutX="354.0" layoutY="311.0" mnemonicParsing="false" prefHeight="1.0" prefWidth="0.0" />
+            <PasswordField fx:id="pwf" layoutX="201.0" layoutY="266.0" onKeyReleased="#dl1" prefHeight="38.0" prefWidth="240.0" promptText="密码" />
+            <TextField fx:id="tf" layoutX="201.0" layoutY="228.0" prefHeight="38.0" prefWidth="240.0" promptText="账号" />
+            <ImageView id="下拉" fitHeight="32.0" fitWidth="70.0" layoutX="499.0" layoutY="-16.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../下拉.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="zc" layoutX="449.0" layoutY="235.0" onMouseClicked="#zhuce" text="注册账号" />
+            <Label layoutX="449.0" layoutY="275.0" text="找回密码" />
+            <ImageView fx:id="gb" fitHeight="32.0" fitWidth="28.0" layoutX="537.0" layoutY="-16.0" onMouseClicked="#guanbi" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../关闭.png" />
+               </image>
+            </ImageView>
+            <ImageView id="登录" fx:id="dl" fitHeight="38.0" fitWidth="240.0" layoutX="202.0" layoutY="344.0" onMouseClicked="#dl" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="cuts" layoutX="263.0" layoutY="256.0" opacity="0.0" text="账号或密码错误" textFill="#e80808" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="533.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.控制2服务器">
+   <children>
+      <AnchorPane prefHeight="547.0" prefWidth="751.0">
+         <children>
+            <TabPane layoutX="-2.0" prefHeight="547.0" prefWidth="757.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab fx:id="注册表" text="当前消息">
+                     <content>
+                        <SplitPane dividerPositions="0.2747688243064729" prefHeight="160.0" prefWidth="200.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="518.0" prefWidth="135.0">
+                                 <children>
+                                    <ScrollBar layoutX="186.0" orientation="VERTICAL" prefHeight="514.0" prefWidth="10.0" />
+                                    <Button fx:id="bt2" layoutX="1.0" layoutY="38.0" mnemonicParsing="false" onMouseEntered="#ebt2" onMouseExited="#xbt2" opacity="0.0" prefHeight="40.0" prefWidth="187.0" />
+                                    <Button fx:id="bt3" layoutX="2.0" layoutY="79.0" mnemonicParsing="false" onMouseEntered="#ebt3" onMouseExited="#xbt3" opacity="0.0" prefHeight="40.0" prefWidth="185.0" />
+                                    <Button fx:id="bt4" layoutX="-1.0" layoutY="119.0" mnemonicParsing="false" onMouseEntered="#ebt4" onMouseExited="#xbt4" opacity="0.0" prefHeight="40.0" prefWidth="188.0" />
+                                    <Button fx:id="bt5" layoutY="159.0" mnemonicParsing="false" onMouseEntered="#ebt5" onMouseExited="#xbt5" opacity="0.0" prefHeight="40.0" prefWidth="188.0" />
+                                    <Button fx:id="bt6" layoutX="-1.0" layoutY="199.0" mnemonicParsing="false" onMouseEntered="#ebt6" onMouseExited="#xbt6" opacity="0.0" prefHeight="40.0" prefWidth="188.0" />
+                                    <Button fx:id="bt1" layoutY="1.0" mnemonicParsing="false" onMouseEntered="#ebt1" onMouseExited="#xbt1" opacity="0.0" prefHeight="40.0" prefWidth="186.0" textFill="#07e2f2" textOverrun="CLIP" wrapText="true" />
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="520.0" prefWidth="531.0">
+                                 <children>
+                                    <TextArea layoutX="1.0" prefHeight="292.0" prefWidth="537.0" fx:id="xx" />
+                                 </children></AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </content>
+                  </Tab>
+                <Tab fx:id="活跃表" text="详细信息">
+                     <content>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Text layoutX="14.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="账号" />
+                              <Text layoutX="150.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ip地址" />
+                              <Label layoutX="322.0" layoutY="11.0" text="状态" />
+                              <Label layoutX="491.0" layoutY="11.0" text="Label" />
+                              <Label fx:id="la" layoutX="3.0" layoutY="41.0" prefHeight="31.0" prefWidth="751.0" />
+                           </children>
+                        </AnchorPane>
+                     </content></Tab>
+                  <Tab fx:id="好友表" text="分类消息">
+                     <content>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <ParallelCamera farClip="200.0" layoutX="97.0" layoutY="224.0" nearClip="2.0" />
+                           </children>
+                        </AnchorPane>
+                     </content></Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

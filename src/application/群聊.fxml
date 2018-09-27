@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.控制8群聊界面">
+   <children>
+      <AnchorPane layoutX="-193.0" layoutY="-199.0" prefHeight="858.0" prefWidth="772.0">
+         <children>
+            <ImageView layoutX="191.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../聊天/聊天.jpg" />
+               </image>
+            </ImageView>
+            <ImageView layoutX="191.0" layoutY="198.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../聊天/头像.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="277.0" layoutY="210.0" text="第一群聊天群">
+               <font>
+                  <Font size="19.0" />
+               </font></Label>
+            <TextArea editable="false" layoutX="191.0" layoutY="302.0" prefHeight="366.0" prefWidth="581.0" fx:id="xx">
+               <effect>
+                  <Lighting diffuseConstant="1.68" specularConstant="1.05" specularExponent="40.0" surfaceScale="0.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="#a1b4bf" />
+                     </light>
+                  </Lighting>
+               </effect>
+            </TextArea>
+            <TextArea fx:id="fxx" layoutX="191.0" layoutY="711.0" onKeyPressed="#send1" prefHeight="108.0" prefWidth="581.0" promptText="输入消息">
+               <effect>
+                  <Lighting diffuseConstant="1.68" specularConstant="1.05" specularExponent="40.0" surfaceScale="0.0">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="#a1b4bf" />
+                     </light>
+                  </Lighting>
+               </effect>
+            </TextArea>
+            <ImageView fx:id="lt_zxh" fitHeight="34.0" fitWidth="36.0" layoutX="667.0" layoutY="198.0" onMouseEntered="#zxhyy" onMouseExited="#zxhqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="lt_zdh" fitHeight="34.0" fitWidth="36.0" layoutX="703.0" layoutY="198.0" onMouseEntered="#zdhyy" onMouseExited="#zdhqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="lt_gb" fitHeight="34.0" fitWidth="36.0" layoutX="738.0" layoutY="198.0" onMouseClicked="#gb" onMouseEntered="#gbyy" onMouseExited="#gbqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="lt_bq" fitHeight="30.0" fitWidth="30.0" layoutX="248.0" layoutY="676.0" onMouseEntered="#bqyy" onMouseExited="#bqqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="lt_zt" fitHeight="30.0" fitWidth="30.0" layoutX="212.0" layoutY="676.0" onMouseEntered="#ztyy" onMouseExited="#ztqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="lt_yyxx" fitHeight="30.0" fitWidth="30.0" layoutX="321.0" layoutY="676.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="lt_tp" fitHeight="30.0" fitWidth="30.0" layoutX="371.0" layoutY="676.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="285.0" layoutY="676.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="lt_yylt" fitHeight="30.0" fitWidth="30.0" layoutX="207.0" layoutY="264.0" onMouseEntered="#yyltyy" onMouseExited="#yyltqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="lt_splt" fitHeight="30.0" fitWidth="30.0" layoutX="249.0" layoutY="264.0" onMouseEntered="#spltyy" onMouseExited="#spltqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="lt_fswj" fitHeight="30.0" fitWidth="30.0" layoutX="341.0" layoutY="264.0" onMouseEntered="#fswjyy" onMouseExited="#fswjqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="30.0" fitWidth="114.0" layoutX="634.0" layoutY="819.0" onMouseClicked="#send" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="tsxx" layoutX="414.0" layoutY="745.0" opacity="0.0" text="发送消息不能为空" textFill="#f21000" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

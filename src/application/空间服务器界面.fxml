@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.群聊服务器">
+   <children>
+      <ImageView fitHeight="394.0" fitWidth="721.0" layoutX="-15.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../2.jpg" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="13.0" layoutY="61.0" prefHeight="258.0" prefWidth="590.0" fx:id="xx" />
+      <Label fx:id="qb" layoutX="63.0" layoutY="332.0" onMouseClicked="#qb1" text="全部分析" textFill="#f2f0f0" />
+      <Label layoutX="493.0" layoutY="332.0" text="针对分析" textFill="#f2f0f0" />
+      <Label layoutX="43.0" layoutY="34.0" text="全部消息" textFill="#fffefe" />
+   </children>
+</AnchorPane>

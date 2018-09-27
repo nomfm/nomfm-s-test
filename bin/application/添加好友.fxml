@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="423.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.控制10添加好友">
+   <children>
+      <ImageView fitHeight="423.0" fitWidth="822.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../bin/hy.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="55.0" layoutY="124.0" prefHeight="37.0" prefWidth="51.0" text="账号" textFill="#0ce43e">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <TextField fx:id="zh" layoutX="115.0" layoutY="128.0" prefHeight="30.0" prefWidth="277.0" promptText="输入账号" />
+      <Button layoutX="187.0" layoutY="209.0" mnemonicParsing="false" onMouseClicked="#qd" text="添加" />
+      <Button fx:id="zh1" layoutX="456.0" layoutY="86.0" mnemonicParsing="false" onMouseEntered="#eb1" onMouseExited="#exb1" opacity="0.0" prefHeight="37.0" prefWidth="210.0" />
+      <Button fx:id="zh2" layoutX="457.0" layoutY="168.0" mnemonicParsing="false" onMouseEntered="#eb2" onMouseExited="#exb2" opacity="0.0" prefHeight="37.0" prefWidth="210.0" />
+      <Button fx:id="zh3" layoutX="456.0" layoutY="249.0" mnemonicParsing="false" onMouseEntered="#eb3" onMouseExited="#exb3" opacity="0.0" prefHeight="37.0" prefWidth="210.0" />
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="637.0" layoutY="8.0" onMouseClicked="#gb" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../123.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

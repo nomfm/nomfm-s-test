@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="416.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.控制4正在登陆">
+   <children>
+      <AnchorPane layoutX="-269.0" layoutY="-333.0" prefHeight="293.0" prefWidth="334.0">
+         <children>
+            <ImageView layoutX="67.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../正在登录/正在登录.gif" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="920.0" fitWidth="1095.0" layoutX="67.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../正在登录/头像.gif" />
+               </image>
+            </ImageView>
+            <ImageView id="qx" fx:id="qx" fitHeight="38.0" fitWidth="243.0" layoutX="417.0" layoutY="692.0" onMouseClicked="#qx" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="xl" fx:id="zzdl_xl" fitHeight="38.0" fitWidth="37.0" layoutX="699.0" layoutY="333.0" onMouseEntered="#xlyy" onMouseExited="#xlqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView id="zxh" fx:id="zzdl_zxh" fitHeight="38.0" fitWidth="37.0" layoutX="736.0" layoutY="333.0" onMouseEntered="#zxhyy" onMouseExited="#zxhqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+            <ImageView id="gb" fx:id="zzdl_gb" fitHeight="38.0" fitWidth="37.0" layoutX="772.0" layoutY="333.0" onMouseClicked="#gb" onMouseEntered="#gbyy" onMouseExited="#gbqcyy" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../123.jpg" />
+               </image></ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

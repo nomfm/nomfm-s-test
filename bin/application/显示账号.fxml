@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="228.0" prefWidth="373.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.控制11显示账号">
+   <children>
+      <ImageView fitHeight="234.0" fitWidth="393.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../1.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="zh" layoutX="86.0" layoutY="97.0" />
+      <Button fx:id="qd" layoutX="138.0" layoutY="156.0" mnemonicParsing="false" onMouseClicked="#gb" onMouseEntered="#eqd" onMouseExited="#xqd" opacity="0.53" text="               " textFill="#0e0be4" textOverrun="CLIP" />
+      <Label layoutX="141.0" layoutY="161.0" onMouseClicked="#gb" onMouseEntered="#eqd" onMouseExited="#xqd" prefHeight="20.0" prefWidth="81.0" text="    确  定 " textFill="#390af5" />
+      <ImageView fx:id="gb" fitHeight="30.0" fitWidth="29.0" layoutX="345.0" layoutY="-1.0" onMouseClicked="#gb" onMouseEntered="#egb" onMouseExited="#xgb" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../123.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
